@@ -58,5 +58,103 @@ public class main {
         // Делать список можно, когда одинаковый тип, выше я числа писал в разных строках, а теперь всё уместить могу в одну
         int z = 4, l = 6, a = 3;
         System.out.println(z + l + a); // Любимое число автора вышло 
+        // Если тебе нужно одинаковое число записать в какие-то переменные, то смотри
+        int k, i, some;
+        k = i = some = 13;
+        System.out.println(k + i + some); // Получается любимое число в кубе
+
+        // Главная штука, чтоб было проще, использовать английские слова и обозначения чего угодно на нём, показываю
+        int daysPerWeek = 7; // Более чем понятно
+        int d = 7; // Пока эта переменная тут, понять ещё можно, а если таких будет много, ты не поймёшь что тут было и зачем
+
+        /* Прям с сайта, где учу java вставлю(учи английский, чтоб понять что написано, ну или переводчик используй)
+         The general rules for naming variables are:
+         
+         Names can contain letters, digits, underscores, and dollar signs
+         Names must begin with a letter
+         Names should start with a lowercase letter, and cannot contain whitespace
+         Names can also begin with $ and _
+         Names are case-sensitive ("myVar" and "myvar" are different variables)
+         Reserved words (like Java keywords, such as int or boolean) cannot be used as names */
+
+
+        // Я тут ещё код вставлю(пример), чтоб увидеть пример, что и как можно использовать для обозначения переменных
+
+        // Student data
+        String studentName = "John Doe";
+        int studentID = 15;
+        int studentAge = 23;
+        float studentFee = 75.25f;
+        char studentGrade = 'B';
+
+        // Print variables
+        System.out.println("Student name: " + studentName);
+        System.out.println("Student id: " + studentID);
+        System.out.println("Student age: " + studentAge);
+        System.out.println("Student fee: " + studentFee);
+        System.out.println("Student grade: " + studentGrade);
+
+        // И второй пример
+
+        // Create integer variables
+        int length = 4;
+        int width = 6;
+        int area;
+
+        // Calculate the area of a rectangle
+        area = length * width;
+
+        // Print variables
+        System.out.println("Length is: " + length);
+        System.out.println("Width is: " + width);
+        System.out.println("Area of the rectangle is: " + area);
+
+        // Есть два типа информации(Data), примитивная(byte, short, int, long, float, double, boolean and char) и не примитивная (String, Arrays and Classes)
+
+        /*
+         И есть такая табличка примитивной data
+         byte  - Stores whole numbers from -128 to 127
+         short - Stores whole numbers from -32,768 to 32,767
+         int - Stores whole numbers from -2,147,483,648 to 2,147,483,647
+         long - Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+         float - Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+         double - Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits
+         boolean - Stores true or false values
+         char - Stores a single character/letter or ASCII values
+         Будем надеяться, что не тебе не мне сейчас она не понадобятся, но мы знаем где её найти, если нужна будет */
+
+        byte aboutByteNumber = 100; // Смотри в таблицу, поймёшь почему тут 100, ну и такой прием позволяет сохранить память если тебе нужны только числа из байта
+        System.out.println(aboutByteNumber);
+
+        short aboutShortNumber = 5000; // Тут тоже смотри в таблицу, причина для чего это сделано, не меняется
+        System.out.println(aboutShortNumber);
+
+        int aboutIntNumber = 100000; // Самое популярное, достаточно чисел
+        System.out.println(aboutIntNumber);
+
+        long aboutLongNumber = 15000000000L; // Очень много чисел, если тебе когда-то придется это использовать, то завершай такое число буквой L
+        System.out.println(aboutLongNumber);
+
+        float aboutFloatNumber = 5.75f; // Тут число с десятичным значением, которое завершаем буквой f
+        System.out.println(aboutFloatNumber);
+
+        double aboutDoubleNumber = 19.99d; // А тут тоже число с десятичным значением, которое завершаем буквой d
+        System.out.println(aboutDoubleNumber);
+        // Не особо понял почему, но для безопасного вычисления использовать лучше double
+
+        // Число с плавающей запятой также может быть научным числом с буквой "е", обозначающей степень 10
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        System.out.println(f1);
+        System.out.println(d1);
+
+        // Очень часто нужна логика в программировании(для тестирования условий), поэтому используется в Java булевый тип для таких дел
+        boolean myGirlfriendLovesMe = true;
+        boolean imLonely = false;
+        System.out.println(myGirlfriendLovesMe); // Моя девушка меня и правда любит
+        System.out.println(imLonely); // Я не одинок 
+        // Пример как он задается, а не как используется
+
+        
     }
 }
