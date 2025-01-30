@@ -1,2 +1,5 @@
 # startJavaKnowledge
-first time in Java
+First time in Java
+Тут будет моё изучение Java
+Когда-то я это репозиторий сделаю приватным, а пока что можно на это посмотреть
+zlakx ♥ (если у вас есть нумпад, то alt + 3)
