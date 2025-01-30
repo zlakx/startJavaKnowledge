@@ -18,5 +18,42 @@ public class main {
         Тут я могу продолжить писать дальше тебе комментарий, используя связку звезды и слеша
         Я не проверял, но думаю, что можно делать очень большой комментарий
         Ну или использовать удобные комментарии, так как короткие предложения читаются легче */
+        String name = "John"; // Пример с объявление переменной, ну тут понятно
+        System.out.println(name);
+        int myNum = 15; // Ну как же без примера с цифрами
+        System.out.println(myNum);
+        /* Вот это обычная штука, но полезная 
+        Создал переменную, а используешь её позже, записываешь в неё значение и работаешь с ним*/
+        int myNumberForTest;
+        myNumberForTest = 13;
+        System.out.println(myNumberForTest);
+        // Чтоб проще было, второй тест с цифрами 
+        int myNumberForSecondTest = 133;
+        myNumberForSecondTest = 10;
+        System.out.println(myNumberForSecondTest); // Я взял её и перезаписал, потому что код идёт последовательно, тоесть я зачернул прошлое и написал новое
+        // Сейчас покажу как это залочить, ну или чтоб было проще запомнить, зафиналить
+        final int myNumberForThirdTest = 89;
+        // myNumberForThirdTest = 13; // Данный код приведет к ошибке, что перезаписать не может, поэтому я его закоменчу, иначе код не работает :>
+        System.out.println(myNumberForThirdTest);
+        /* Короче
+        Насру тебе примеров типов, которые есть в java
+        Просто посмотри, чтоб не забыть */
+        int myNumber = 5;
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+        String myText = "Hello";
+
+        // Как комбинировать текст и переменную:
+        String authorName = "Zlakx";
+        System.out.println("Привет, я " + authorName); // Вприниципе ты уже это знал, но вспомнить это хорошо
+        // Ну так и можно целый текст с использование переменных создать
+        String girlfriendName = "Chaplucky";
+        String pair = authorName + " " + girlfriendName;
+        System.out.println(pair); // Короче автор встречается с Chaplucky, ну и так до бесконечности можно составить текст
+        // Посчитаем сколько будет 7 + 6
+        int x = 7;
+        int y = 6;
+        System.out.println(x + y); // Любимое число автора получилось
     }
 }
