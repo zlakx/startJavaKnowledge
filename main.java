@@ -286,6 +286,12 @@ public class main {
         String exampleConcatFirstLetter = "7";
         String exampleConcatSecondLetter = "6";
         System.out.println(exampleConcatFirstLetter + exampleConcatSecondLetter); // Получится строка (String) 76, это важно учитывать, что строки соединяются, а не складываются
+
+        String exampleConcatAndAdditionFirsts = exampleConcatFirstLetter + exampleAdditionNumberFirst; // Используя String значение числовое (int) переводится в строку
+        System.out.println(exampleConcatAndAdditionFirsts); // Из-за чего выводится строка с конкатенацией
+
+
+        
     }
 }
 
