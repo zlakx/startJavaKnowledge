@@ -1,3 +1,4 @@
+// ## Самое начало Java
 public class main {
     public static void main(String[] args) {
         System.out.println("Сделайте вид, что я тут написал что-то умное:");
@@ -205,6 +206,7 @@ public class main {
         float percentage = (float) userScore / maxScore * 100.0f; // Число переводится в плавающее, чтоб точно определить количество процентов
         
         System.out.println("Процент очков пользователя - " + percentage);
+
 
     }
 }
