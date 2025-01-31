@@ -290,8 +290,40 @@ public class main {
         String exampleConcatAndAdditionFirsts = exampleConcatFirstLetter + exampleAdditionNumberFirst; // Используя String значение числовое (int) переводится в строку
         System.out.println(exampleConcatAndAdditionFirsts); // Из-за чего выводится строка с конкатенацией
 
+        /* Тут будет прикольная штука, которую нужно знать
+         Обратный слеш ( \ ), экранизирует специальные знаки, по типу "",'' и иных
+         String txt = "Что-то тут написано "абстрактно", а ты даже не знаешь про что."
+         Используй в таких случаях обратный слеш перед знаками, которые тебе необходимо написать в сообщении
+         String txt = "Что-то тут написано \"абстрактно\", а ты даже не знаешь про что."
+        */
+        String exampleTxtBackslash  = "Скандинавские мореходы, совершавшие в VIII-XI веках морские походы были - \"Викинги\"";
+        System.out.println(exampleTxtBackslash);
 
-        
+        /* Также этот экранирующий символ можно спользовать в следующих комбинациях
+         \n - начинается текст с новой строки
+         \r - похож на прошлое, тоже возвращает текст к новой строке (но в примере не понятно)
+         \t - делает табуляцию ("нажимает" на Tab)
+         \b - удаляет символ, стоящий перед такой кобинацией
+         \f - делает "разрыв страницы"
+         */
+
+         String exampleTxtEscapingN = "Консультация с профессионалами из IT \nспособствует повышению актуальности";
+         System.out.println(exampleTxtEscapingN);
+
+         String exampleTxtEscapingR = "Консультация с профессионалами из IT \rспособствует повышению актуальности";
+         System.out.println(exampleTxtEscapingR);
+
+         String exampleTxtEscapingT = "Консультация с профессионалами из IT \tспособствует повышению актуальности";
+         System.out.println(exampleTxtEscapingT);
+
+         String exampleTxtEscapingB = "Консультация с профессионалами из IT с\bпособствует повышению актуальности";
+         System.out.println(exampleTxtEscapingB);
+
+         String exampleTxtEscapingF = "Консультация с профессионалами из IT \fспособствует повышению актуальности";
+         System.out.println(exampleTxtEscapingF);
+
+
+
     }
 }
 
