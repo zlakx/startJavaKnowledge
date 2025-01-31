@@ -178,6 +178,34 @@ public class main {
         System.out.println("Цена за товар " + costPerItem + currency);
         System.out.println("Общая стоимость = " + totalCost + currency);
 
+
+
+        /*
+         1. Widening Casting (automatically) - перевод из малого в большее
+         2. Narrowing Casting (manually) - перевод из большего в меньшее
+         */
+
+        // Пример первого - где автоматически происходит перевод
+        int myInt = 9;
+        double myDouble = myInt;
+
+        System.out.println(myInt);
+        System.out.println(myDouble);
+
+        // Пример второго - где перевод нужно осуществлять вручную, используя ()
+        double mySecondDouble = 9.78d;
+        int mySecondInt = (int) mySecondDouble;
+
+        System.out.println(mySecondDouble);
+        System.out.println(mySecondInt);
+
+        // Программа для вычисления процентов очков человека, относительно максимальных очков
+        int maxScore = 1000;
+        int userScore = 555;
+        float percentage = (float) userScore / maxScore * 100.0f; // Число переводится в плавающее, чтоб точно определить количество процентов
         
+        System.out.println("Процент очков пользователя - " + percentage);
+
     }
 }
+
