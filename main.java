@@ -155,6 +155,29 @@ public class main {
         System.out.println(imLonely); // Я не одинок 
         // Пример как он задается, а не как используется
 
+        // Пример Char, ну просто чтоб был 
+        char myGrade = 'B';
+        System.out.println(myGrade);
+
+        // ASCII - таблица со значениями, которые можно использовать, пока я её не знаю, поэтому ты тоже лезь туда
+        char myVar1 = 65, myVar2 = 66, myVar3 = 67;        
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+        
+        /* String - тоесть строка, содержит в себе последовательность символов
+        Их нужно ставить в двойные кавычки (ну в будущем, ещё станет известно, что можно использовать и одинарные) */
+
+        // Пример, как можно использовать различные типы информации
+        int itemsInStore = 13;
+        float costPerItem = 999.99f; 
+        float totalCost = itemsInStore * costPerItem;
+        char currency = '₽';
+
+        System.out.println("Количество товаров в магазине: " + itemsInStore);
+        System.out.println("Цена за товар " + costPerItem + currency);
+        System.out.println("Общая стоимость = " + totalCost + currency);
+
         
     }
 }
