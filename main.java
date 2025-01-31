@@ -172,7 +172,7 @@ public class main {
         int itemsInStore = 13;
         float costPerItem = 999.99f; 
         float totalCost = itemsInStore * costPerItem;
-        char currency = '₽';
+        char currency = '€';
 
         System.out.println("Количество товаров в магазине: " + itemsInStore);
         System.out.println("Цена за товар " + costPerItem + currency);
@@ -247,8 +247,45 @@ public class main {
          Тут тоже примеры добавлю потом, если не забуду, если не добавил, значит забыл, сам сделай
          */
 
+        /*
+         Третье, логические операторы
+         && логическое и
+         || логическое или 
+         ! логическое не
+         Тут тоже примеры добавлю потом, если не забуду, если не добавил, значит забыл, сам сделай
+         */
 
+        // В типе String есть полезное вычисление длинны строки, используя метод: .length()
+        String txtForLength = "QWERTYUIOASDFGHJKZXCVBNM";
+        System.out.println("Длинна текста: " + txtForLength.length());
+
+        // Ещё пара методов, которые делают текст верхнего регистра .toUpperCase() и нижнего регистра .toLowerCase()
+        String txtForUpperAndLowerCase = "Java - язык программирования";
+        System.out.println(txtForUpperAndLowerCase.toUpperCase());
+        System.out.println(txtForUpperAndLowerCase.toLowerCase());
         
+        // Метод поиска символа в тексте (выведет значение в строке, где начинается слово(учти, что в Java счет идет с 0))
+        String txtForFindCharacter = "Поиск слова, которое тебе необходимо";
+        System.out.println(txtForFindCharacter.indexOf("тебе"));
+
+        // Моя любимая конкатенация, когда используется + в выводе переменных, например:
+        String audioInput = "Микрофон";
+        String audioOutput = "Наушники";
+        System.out.println(audioInput + " и " + audioOutput + " - это гарнитура"); // Чтоб текст не склеивался полностью используют " ", где пробел ставится внутри скобок, как разделитель
+
+        // Метод .concat() - такая же конкатенация, но через метод. Использовал строки, которые были созданы для конкатенации
+        System.out.println(audioInput.concat(audioOutput));
+
+        /* ВАЖНО
+         В Java + используется как оператор сложения, так и как оператор конкатенации, но сложения только чисел, а конкатенация для строк
+        */
+        int exampleAdditionNumberFirst = 7;
+        int exampleAdditionNumberSecond = 6;
+        System.out.println(exampleAdditionNumberFirst + exampleAdditionNumberSecond); // Получится число (int) 13
+
+        String exampleConcatFirstLetter = "7";
+        String exampleConcatSecondLetter = "6";
+        System.out.println(exampleConcatFirstLetter + exampleConcatSecondLetter); // Получится строка (String) 76, это важно учитывать, что строки соединяются, а не складываются
     }
 }
 
