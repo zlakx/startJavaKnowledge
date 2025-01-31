@@ -1,4 +1,3 @@
-// ## Самое начало Java
 public class main {
     public static void main(String[] args) {
         System.out.println("Сделайте вид, что я тут написал что-то умное:");
