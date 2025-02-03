@@ -333,8 +333,21 @@ public class main {
         int randomNum = (int)(Math.random() * 51); // Учитывай, что в диапазоне будут числа от 0 до 51 (не включая 51)
         System.out.println(randomNum);
 
+        // Очень часто придется обращаться к типу Булево, где только 2 состояния, да/нет, вкл/выкл, true/fase
+        boolean isJavaInteresting = true;
+        boolean isRiceTasty = false;
+        System.out.println(isJavaInteresting); // Выводит true
+        System.out.println(isRiceTasty); // Выводит false
 
+        /* Когда тебе нужна логикак в программирование, ты обращаешься к Булево
+         Чтоб найти какое число больше, используется знак сравнения >, которое возвращает истину или ложь */
         
+        int firstOne = 22;
+        int secondOne = 13;
+        System.out.println(firstOne>secondOne); // Выводит, что true, тоесть 22 больше 13
+        
+
+
     }
 }
 
