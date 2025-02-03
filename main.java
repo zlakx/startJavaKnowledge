@@ -323,7 +323,18 @@ public class main {
          System.out.println(exampleTxtEscapingF);
 
 
+        // Математические методы, для работы с числами
+        System.out.println(Math.max(6,13)); // Поиск наибольшего числа из двух заданных
+        System.out.println(Math.min(6, 13)); // Поиск наименьшего числа из двух заданных
+        System.out.println(Math.sqrt(64)); // Вычисление квадратного корня из числа
+        System.out.println(Math.abs(-13.3)); // Вычисляет модуль(абсолютное значение) из числа
+        System.out.println(Math.random()); // Возвращает рандомное число из значение 0.0 (включительно) и 1.0 (исключительно)
+        // Чтоб получить число от 0 до 100, можно воспользоваться данной формулой
+        int randomNum = (int)(Math.random() * 51); // Учитывай, что в диапазоне будут числа от 0 до 51 (не включая 51)
+        System.out.println(randomNum);
 
+
+        
     }
 }
 
