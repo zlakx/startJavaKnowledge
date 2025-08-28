@@ -5,4 +5,4 @@
 <br/>
 <br/>
 ## main.java - Самое начало изучение Java <br/>
-zlakx ♥ (если у вас есть нумпад, то alt + 3) <br/>
+zlakx ♥ <br/>
